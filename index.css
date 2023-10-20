@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: blueviolet;
+   color: white;
+}
+
+.conatiner{
+    background-color:   rgb(64, 35, 92);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: relative;
+}
+
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(154, 91, 212);
+    /* width: 30vw; */
+    max-width: 400px;
+    height: 70vh;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.conatiner-3{
+    height: 15vh;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color:   rgb(64, 35, 92);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ 
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.893);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 15px;
+}
+
+#username{
+    color: rgba(255, 255, 255, 0.893);
+    height: 40px;
+    width: 330px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    text-indent: 20px;
+}
+
+button{
+    color: rgba(255, 255, 255, 0.893);
+    background-color: blueviolet; 
+    height: 40px;
+    width: 330px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    background-image: url(images/generate.png);
+    background-repeat: no-repeat;
+    
+}
+
+#password{
+        background-color: blueviolet;
+        height: 40px;
+        width: 330px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        text-align: center;
+        padding-top: 10px;
+        color: rgba(255, 255, 255, 0.587);
+        position: relative;
+         
+}
+
+#copy{
+    position: absolute;
+    height: 23px;
+    width: 22px;
+    mix-blend-mode:  exclusion;  
+    cursor: pointer;
+    margin-left: 70px;
+}
+ 
+.social-links{
+    /* padding: 12px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+    width: 80%;
+}
+
+#links_img{
+    width: 30px;
+    height: 27px;
+   padding-left:4px;
+}
+
+
+ 
+
+ 
